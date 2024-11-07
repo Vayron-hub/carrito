@@ -35,6 +35,7 @@ function App() {
 
   function removeFromCart(id) {
     setCart(prevCart => prevCart.filter(guitar => guitar.id !== id));
+    event.preventDefault();
   }
 
   function increseQuantity(id) {
