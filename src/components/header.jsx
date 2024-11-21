@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-//By Biron
+//By Biron whit udemy
 
 export default function Header({cart, removeFromCart, decreseQuantity, increseQuantity, clearCart}) {
 
