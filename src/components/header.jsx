@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+//By Biron
 
 export default function Header({cart, removeFromCart, decreseQuantity, increseQuantity, clearCart}) {
 
