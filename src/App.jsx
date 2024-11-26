@@ -19,6 +19,8 @@ function App() {
     localStorage.setItem('cart', JSON.stringify(cart));
   }, [cart])
 
+  const [total, setTotal] = useState(0);
+
   function addToCart(item) {
     const itemExists = cart.findIndex((guitar) => guitar.id === item.id);
     if (itemExists >= 0) { // Si el item ya existe en el carrito
